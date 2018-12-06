@@ -752,6 +752,17 @@ rec {
 
   };
 
+  vimux = buildVimPluginFrom2Nix { # created by nix#NixDerivation
+    name = "vimux-2017-10-24";
+    src = fetchgit {
+      url = "https://github.com/benmills/vimux";
+      rev = "37f41195e6369ac602a08ec61364906600b771f1";
+      sha256 = "0k7ymak2ag67lb4sf80y4k35zj38rj0jf61bf50i6h1bgw987pra";
+    };
+    dependencies = [];
+  };
+
+
   vim-hdevtools = buildVimPluginFrom2Nix { # created by nix#NixDerivation
     name = "vim-hdevtools-2017-03-11";
     src = fetchgit {

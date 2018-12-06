@@ -12,6 +12,7 @@
 "github:bazelbuild/vim-bazel"
 "github:bbchung/clighter8"
 "github:benekastah/neomake"
+"github:benmills/vimux"
 "github:bitc/vim-hdevtools"
 "github:bronson/vim-trailing-whitespace"
 "github:cespare/vim-toml"
